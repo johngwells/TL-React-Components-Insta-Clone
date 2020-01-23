@@ -14,7 +14,7 @@ import data from './dummy-data';
 const App = (props) => {
   // set up state for the dummy data and pass to your PostsPage
   const [instaData, setInstaData] = useState(data);
-  console.log(instaData);
+  // console.log(instaData);
   return (
     <div className="App">
       {/* Add components here  and pass props where appropriate */}

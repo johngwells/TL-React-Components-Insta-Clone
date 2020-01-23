@@ -13,6 +13,7 @@ const CommentSection = props => {
       {/* map through the comments data and return the Comment component */}
       {comments.map((c) => (
         <Comment 
+          key={c.imageUrl}
           comment={c}
         />
       ))}

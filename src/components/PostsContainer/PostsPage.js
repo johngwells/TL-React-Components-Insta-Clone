@@ -9,7 +9,6 @@ const PostsPage = (props) => {
     <div className="posts-container-wrapper">
       {/* map through data here */}
       <h1>Test</h1>
-      {console.log(props)}
       {props.data.map((p) => {
         console.log(p)
         return (
