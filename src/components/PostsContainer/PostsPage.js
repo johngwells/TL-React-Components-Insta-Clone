@@ -8,9 +8,8 @@ const PostsPage = (props) => {
   return (
     <div className="posts-container-wrapper">
       {/* map through data here */}
-      <h1>Test</h1>
       {props.data.map((p) => {
-        console.log(p)
+        console.log('PostPage', p)
         return (
           <div>
             <Post post={p}/>

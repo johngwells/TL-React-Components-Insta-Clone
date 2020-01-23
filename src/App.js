@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
 // import dummydata
+import SearchBar from './components/SearchBar/SearchBarContainer';
 import PostsPage from './components/PostsContainer/PostsPage';
 import data from './dummy-data';
 
@@ -18,6 +19,7 @@ const App = (props) => {
   return (
     <div className="App">
       {/* Add components here  and pass props where appropriate */}
+      <SearchBar />
       <PostsPage
         data={instaData}
       />
